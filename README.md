@@ -1,10 +1,10 @@
 # Forecasting-Hourly-Energy-Consumption-using-ARH-1-
 ---
 
-"Forecasting Hourly Energy Consumption — ARH vs VAR" 
-Second Reader - Zhenisbek Assylbekov,
-Supervisor - Rustem Takhanov, 
-Rustem Kaliyev, 
+"Forecasting Hourly Energy Consumption: Is Functional Data Analysis Worth the Complexity?" \\
+Second Reader - Zhenisbek Assylbekov, \\
+Supervisor - Rustem Takhanov, \\
+Rustem Kaliyev \\
 
 
 This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: Is Functional Data Analysis Worth the Complexity?”** It contains the experimental pipeline used to compare a functional autoregressive Hilbertian model (ARH (1)), a classical PCA + VAR (1) model, and several modern deep‑learning baselines (NHITS, LSTM, and TimeGPT) on PJM’s (Pennsylvania-New Jersey-Maryland Interconnection) hourly load data.
