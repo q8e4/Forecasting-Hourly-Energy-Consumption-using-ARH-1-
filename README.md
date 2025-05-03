@@ -1,5 +1,4 @@
 # Forecasting-Hourly-Energy-Consumption-using-ARH-1-
----
 
 "Forecasting Hourly Energy Consumption: Is Functional Data Analysis Worth the Complexity?" <br>
 Second Reader - Zhenisbek Assylbekov, <br>
@@ -28,7 +27,7 @@ This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: 
 
 ## Results snapshot
 
-A condensed comparison (full tables in `evaluation.ipynb`):
+A concise comparison (full tables in `evaluation.ipynb`):
 
 | Model         | Avg sMAPE (%) | Avg MAE | Avg MSE   |
 | ------------- | ------------- | ------- | --------- |
@@ -61,7 +60,7 @@ The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenienc
 
 ## Acknowledgements
 
-* Amantay Nurlanuly, UG 3, Economics student for carrying out a
+* Amantay Nurlanuly, UG 3, Economics student for carrying out an experiment
 * **Nixtla** for *NeuralForecast* and *TimeGPT* APIs.
-* Siegfried Hörmann, Denis Bosq, Cristian Challu et al. for foundational work on ARH and NHITS.
+
 
