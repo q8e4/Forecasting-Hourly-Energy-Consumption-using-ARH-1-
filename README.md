@@ -10,7 +10,7 @@ This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: 
 
 > **Key takeaway:** In a clean, densely–sampled setting the simple PCA + VAR (1) approach matches the accuracy of ARH (1) (\~2 % sMAPE) and outperforms deeper neural models.
 
----
+<br>
 
 ## Repository structure
 
@@ -23,7 +23,7 @@ This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: 
 | `evaluation.ipynb`    | Prediction tables, computes MAE / MSE / sMAPE, and produces comparison plots.      |
 
 
----
+<br>
 
 ## Results snapshot
 
@@ -37,7 +37,7 @@ A concise comparison (full tables in `evaluation.ipynb`):
 | LSTM          | 3.01          | 610     | 3.6 × 10⁷ |
 | TimeGPT       | 1.97          | 318     | 2.0 × 10⁷ |
 
----
+<br>
 
 ## Data
 
@@ -47,7 +47,7 @@ A concise comparison (full tables in `evaluation.ipynb`):
 
 The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenience.
 
----
+<br>
 
 ## Re‑using the code on your data
 
@@ -55,12 +55,12 @@ The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenienc
 2. Adjust the preprocessing cell at the top of each notebook (path + column names).
 3. Re‑run the notebooks — all downstream steps are parameterised.
 
----
+<br>
 
 
 ## Acknowledgements
 
-* Amantay Nurlanuly, UG 3, Economics student for carrying out an experiment
+* Amantay Nurlanuly, UG 3, Economics student for carrying out an experiment.
 * **Nixtla** for *NeuralForecast* and *TimeGPT* APIs.
 
 
