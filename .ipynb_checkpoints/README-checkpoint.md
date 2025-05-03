@@ -42,11 +42,11 @@ A condensed comparison (full tables in `evaluation.ipynb`):
 
 ## Data
 
-* **Source:** [PJM Energy Market Hourly Load Data](https://raw.githubusercontent.com/Nixtla/transfer-learning-time-series/refs/heads/main/datasets/pjm_in_zone.csv) (public domain).
+* **Source:** [PJM Energy Market Hourly Load Data](https://github.com/Nixtla/transfer-learning-time-series/blob/main/datasets/pjm_in_zone.csv) (public domain).
 * **Zones:** AP, DOM, JC, PN, RTO.
 * **Period:** 2023‑10‑01 → 2024‑09‑30 (365 days × 24 hours).
 
-The cleaned, timezone‑aligned CSVs live in `dataset/`. They are small (<5 MB) and included for convenience.
+The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenience.
 
 ---
 
