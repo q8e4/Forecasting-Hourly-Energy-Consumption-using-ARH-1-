@@ -3,14 +3,14 @@
 "Forecasting Hourly Energy Consumption: Is Functional Data Analysis Worth the Complexity?" <br>
 Second Reader - Zhenisbek Assylbekov, <br>
 Supervisor - Rustem Takhanov, <br>
-Rustem Kaliyev <br>
+Submitted By - Rustem Kaliyev <br>
 
 
 This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: Is Functional Data Analysis Worth the Complexity?”** It contains the experimental pipeline used to compare a functional autoregressive Hilbertian model (ARH (1)), a classical PCA + VAR (1) model, and several modern deep‑learning baselines (NHITS, LSTM, and TimeGPT) on PJM’s (Pennsylvania-New Jersey-Maryland Interconnection) hourly load data.
 
 > **Key takeaway:** In a clean, densely–sampled setting the simple PCA + VAR (1) approach matches the accuracy of ARH (1) (\~2 % sMAPE) and outperforms deeper neural models.
 
----
+<br>
 
 ## Repository structure
 
@@ -23,7 +23,7 @@ This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: 
 | `evaluation.ipynb`    | Prediction tables, computes MAE / MSE / sMAPE, and produces comparison plots.      |
 
 
----
+<br>
 
 ## Results snapshot
 
@@ -37,7 +37,7 @@ A concise comparison (full tables in `evaluation.ipynb`):
 | LSTM          | 3.01          | 610     | 3.6 × 10⁷ |
 | TimeGPT       | 1.97          | 318     | 2.0 × 10⁷ |
 
----
+<br>
 
 ## Data
 
@@ -47,20 +47,20 @@ A concise comparison (full tables in `evaluation.ipynb`):
 
 The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenience.
 
----
+<br>
 
 ## Re‑using the code on your data
 
-1. Replace the CSVs in `dataset/` with your own hourly series (one file per zone / series).
+1. Replace the CSVs in `dataset/` with your own hourly series.
 2. Adjust the preprocessing cell at the top of each notebook (path + column names).
 3. Re‑run the notebooks — all downstream steps are parameterised.
 
----
+<br>
 
 
 ## Acknowledgements
 
-* Amantay Nurlanuly, UG 3, Economics student for carrying out an experiment
+* Amantay Nurlanuly, third-year Economics student for carrying out an experiment.
 * **Nixtla** for *NeuralForecast* and *TimeGPT* APIs.
 
 
