@@ -19,6 +19,7 @@ This repository accompanies thesis, **“Forecasting Hourly Energy Consumption: 
 | `dataset/`            | PJM Hourly Load CSVs (Oct 2023 – Sep 2024, five zones: AP, DOM, PN, JC, RTO).      |
 | `preds/`              | Saved forecast tables produced by the notebooks.                                   |
 | `ARH.ipynb`           | Iimplementation of the functional ARH (1), and classical PCA+VAR(1) model.         |
+| `ARH_VAR_comparison.R`| Comparison of ARH (1) and PCA+VAR(1) models across varying number of components.   |
 | `NNmodels.ipynb`      | TimeGPT, NHITS & LSTM experiments via **Nixtla NeuralForecast**.                   |
 | `evaluation.ipynb`    | Prediction tables, computes MAE / MSE / sMAPE, and produces comparison plots.      |
 
@@ -60,7 +61,7 @@ The cleaned, timezone‑aligned CSVs live in `dataset/`. Included for convenienc
 
 ## Acknowledgements
 
-* Amantay Nurlanuly, third-year Economics student for carrying out an experiment.
+* Special thanks to Amantay Nurlanuly, third-year Economics student for carrying out an experiment in section 5.
 * **Nixtla** for *NeuralForecast* and *TimeGPT* APIs.
 
 
